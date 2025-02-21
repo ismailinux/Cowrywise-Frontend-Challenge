@@ -126,6 +126,7 @@ input {
 
 .query {
     color: #6e7b90;
+    white-space: nowrap;
 }
 
 .icon {
@@ -148,5 +149,17 @@ input {
     margin: 0 auto;
     position: relative;
     top: -40px;
+}
+
+/* Media queries for responsiveness */
+
+
+@media (max-width: 1000px) {
+  .searching {
+    font-size: 2rem;
+    
+  }
+
+  
 }
 </style>

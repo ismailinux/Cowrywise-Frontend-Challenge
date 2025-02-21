@@ -240,6 +240,9 @@ const closeModal = () => {
 @media (max-width: 1000px) {
   .photo-grid {
     grid-template-columns: repeat(1, 1fr);
+    
   }
+
+  
 }
 </style>
