@@ -30,7 +30,6 @@
   
   <style scoped>
   .modal {
-    border: 2px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +45,6 @@
   }
   
   .modal-content {
-    border: 2px solid red;
     position: relative;
     top: 100px;
     background-color: #fefefe;
