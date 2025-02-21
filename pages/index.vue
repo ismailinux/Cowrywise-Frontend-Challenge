@@ -97,6 +97,7 @@ const fetchPhotos = async () => {
   } catch (error) {
     console.error('Error fetching photos from Unsplash:', error.response?.data || error);
   } finally {
+    //I intentionally added a 1 second delay to give the laoding placeholder component more stage time
     setTimeout(() => {
       userStore.loading = false;
     }, 1000);
