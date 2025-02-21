@@ -30,6 +30,7 @@
   
   <style scoped>
   .modal {
+    border: 2px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,16 +40,17 @@
     top: 0;
     width: 100%;
     height: 100%;
+    padding-bottom: 100px;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.8);
   }
   
   .modal-content {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     position: relative;
     top: 100px;
     background-color: #fefefe;
-    margin: auto;
+    margin: auto auto 100px auto;
     padding: 0;
     width: 80%;
     max-width: 800px;
