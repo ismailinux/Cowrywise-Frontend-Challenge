@@ -1,75 +1,45 @@
-# Nuxt Minimal Starter
+# Unsplash Clone (Cowrywise)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is an Unsplash clone built with Nuxt.js. It allows users to search for images and view them in a modal with additional information about the image and its author. The project also includes a loading shimmer effect while images are being fetched and displayed.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- Search for images using the Unsplash API
+- Display images in a grid layout
+- View image details in a modal
+- Loading shimmer effect while images are being fetched
+
+## Technologies Used
+
+- Nuxt.js
+- Vue.js
+- Pinia (state management)
+- Axios (for API requests)
+- Lodash (utility functions)
+- SCSS (for styling)
+
+## Installation
+
+1. Clone the repository:
 
 ```bash
-# npm
+git clone https://github.com/your-username/unsplash-clone-cowrywise.git
+
+cd unsplash-clone-cowrywise
+
+2. Install Dependencies
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# or
 yarn install
 
-# bun
-bun install
-```
+3.Create a .env file in the root directory and add your Unsplash API key:
+VITE_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+Usage
+1. Start the development server:
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
+# or
 yarn dev
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+2. Open your browser and navigate to: 
+   http://localhost:3000
